@@ -9,12 +9,12 @@
   margin: 0px;
 }
 
-canvas {
+/* canvas {
   position: fixed;
   top: 0;
   left: 0;
   z-index: -1;
-}
+} */
 
 ::-webkit-scrollbar {
   width: 10px;

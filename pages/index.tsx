@@ -20,9 +20,9 @@ export default function Home() {
     },
   }
 
-  useEffect(() => {
-    drone()
-  }, [])
+  // useEffect(() => {
+  //   drone()
+  // }, [])
 
   return (
     <div className="">
@@ -32,7 +32,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="text-6xl h-screen   text-white">
+      <main className="text-6xl h-screen bg-secondary  text-white">
         <div className="p-4 space-y-10 md:space-y-0 md:grid md:grid-cols-2 font-poppins md:mx-36 md:pt-48">
 
           <motion.div variants={fadeLeft} initial="hidden" animate="visible" className="pr-4 md:flex md:flex-col md:justify-center">
