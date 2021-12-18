@@ -26,6 +26,7 @@ Check out the complete demo video [here]().
 - TypeScript
 - React-three-fiber
 - echo3D
+- Docker
 - Tailwind CSS
 - Framer Motion
 
@@ -34,7 +35,15 @@ Check out the complete demo video [here]().
 - AR: [echo3D](https://www.echo3d.co/)
 - 3D Models: [sketchfab.com](https://sketchfab.com)
 
-## 🖼️ Previews of the site
+## Run the Docker Image
+
+Run the following command to pull and start the image from Docker Hub
+
+```
+docker run -p 3000:3000 aerotrack:1.0
+```
+
+On the browser visit ```http://localhost:3000``` to see the demo.
 
 ## Prerequisites
 
